@@ -11,7 +11,7 @@ Just unzip the contents to somewhere like
 
 - C:\Program Files\Utils\
 
-...your antivirus software might complain, if that makes you uncomfortable, do
+...your antivirus software might complain; if that makes you uncomfortable, do
 not run clockutc.exe from the .zip file, but inspect the code and build it yourself.
 
 If you want to build it yourself, and you will then want it to run it on windows from
