@@ -48,22 +48,36 @@
 **
 ****************************************************************************/
 
-#ifndef DIGITALCLOCK_H
-#define DIGITALCLOCK_H
+#include <QtWidgets>
 
-#include <QLCDNumber>
+#include "clockutc.h"
 
 //! [0]
-class DigitalClock : public QLCDNumber
+ClockUTC::ClockUTC(QWidget *parent)
+    : QLCDNumber(parent)
 {
-    Q_OBJECT
+    setSegmentStyle(Filled);
 
-public:
-    DigitalClock(QWidget *parent = 0);
+    QTimer *timer = new QTimer(this);
+    connect(timer, SIGNAL(timeout()), this, SLOT(showTime()));
+    timer->start(1000);
 
-private slots:
-    void showTime();
-};
+    showTime();
+
+    setWindowTitle(tr("UTC Time"));
+    resize(150, 60);
+}
 //! [0]
 
-#endif
+//! [1]
+void ClockUTC::showTime()
+//! [1] //! [2]
+{
+    // QTime time = QTime::currentTime();
+    QDateTime time = QDateTime::currentDateTimeUtc();
+    QString text = time.toString("hh:mm");
+    //if ((time.second() % 2) == 0)
+    //    text[2] = ' ';
+    display(text);
+}
+//! [2]

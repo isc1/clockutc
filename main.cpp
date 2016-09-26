@@ -50,12 +50,12 @@
 
 #include <QApplication>
 
-#include "digitalclock.h"
+#include "ClockUTC.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    DigitalClock clock;
+    ClockUTC clock;
     clock.show();
     return app.exec();
 }
