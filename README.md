@@ -23,8 +23,6 @@ to something like
 which copies of those files you need.  In Qt Creator, after you open the
 clockutc project, see: Tools > Options > Build & Run > Qt Versions
 
-...or you can look in the file clockutc.pro
-
 The folder containing the .dll files you need will probably look like:
 
 C:\Qt\5.7\msvc2015_64\bin
