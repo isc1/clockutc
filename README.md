@@ -2,8 +2,9 @@
 *a simple clock that shows utc time for Windows, written in Qt/C++*
 
 This clock is really just the DigitalClock code example included with Qt &
-Qt Creator with a few lines changed so that it shows UTC (Universal Time
-Coordinated  https://en.wikipedia.org/wiki/Coordinated_Universal_Time ).
+Qt Creator ( http://doc.qt.io/qt-5/qtwidgets-widgets-digitalclock-example.html )
+with a few lines changed so that it shows UTC (Universal Time Coordinated:
+https://en.wikipedia.org/wiki/Coordinated_Universal_Time ).
 
 A .zip file containing the executable is included if you don't want to build it.
 Just unzip the contents to somewhere like
