@@ -12,6 +12,7 @@ changes that will get it to run on linux & Mac, I will look at pull requests. :)
 To get this to run on windows from the taskbar, you can copy the executable
 to something like
 - C:\Program Files\Utils\clockutc.exe
+
 ...and then copy the following files to that directory also:
 
 - Qt5Core.dll
