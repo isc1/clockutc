@@ -5,7 +5,7 @@ This clock is really just the DigitalClock code example included with Qt &
 Qt Creator with a few lines changed so that it shows UTC (Universal Time
 Coordinated  https://en.wikipedia.org/wiki/Coordinated_Universal_Time ).
 
-This code runs okay on Windows 10 with Qt 5.7, and should work on linux and
+This code runs okay on Windows 10 with Qt 5.7.0, and should work on linux and
 Mac OS X too, but I haven't built it on those platforms yet.  If you have
 changes that will get it to run on linux & Mac, I will look at pull requests. :)
 
