@@ -1,7 +1,7 @@
 # clockutc
 *a simple clock that shows utc time for Windows, written in Qt/C++*
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "clockutc")
+![alt text](https://github.com/isc1/clockutc/blob/master/clockutc-screenshot.jpg "clockutc")
 
 This clock is really just the DigitalClock code example included with Qt &
 Qt Creator ( http://doc.qt.io/qt-5/qtwidgets-widgets-digitalclock-example.html )
