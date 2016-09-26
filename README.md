@@ -1,8 +1,8 @@
 # clockutc
 *a simple clock that shows utc time, written in Qt/C++*
 
-This clock is really just the demo clock included with Qt & Qt Creator with a few
-lines changed.
+This clock is really just the DigitalClock code example included with Qt &
+Qt Creator with a few lines changed.
 
 To get this to run on windows from the taskbar, you can copy the executable
 to something like C:\Program Files\Utils\clockutc.exe
