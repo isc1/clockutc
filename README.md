@@ -33,8 +33,8 @@ computer".
 
 Qt includes several different versions of these files.  Depending on what version you
 are running, that will determine which copies of those files you need.  If you don't
-copy the .dll files from the .zip file, and build clockutc.exe yourself, then after
-you have opened the project in Qt Creator, see:
+copy the .dll files from the .zip file, and instead build clockutc.exe yourself, then
+after you have opened the project in Qt Creator, see:
 
 - Tools > Options > Build & Run > Qt Versions
 
