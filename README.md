@@ -40,7 +40,7 @@ you have opened the project in Qt Creator, see:
 
 The folder containing the .dll files you need will probably look like:
 
-C:\Qt\5.7\msvc2015_64\bin
+- C:\Qt\5.7\msvc2015_64\bin
 
 ...this is all because, by default, Qt builds with dynamic linking.
 
