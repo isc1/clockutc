@@ -27,9 +27,16 @@ to run it (for example), you can copy the executable to somewhere like:
 - Qt5Gui.dll
 - Qt5Widgets.dll
 
-...depending on what version compiler you are running, that will determine
-which copies of those files you need.  In Qt Creator, after you open the
-clockutc project, see: Tools > Options > Build & Run > Qt Versions
+...otherwise, when you try to run clockutc.exe, windows will give you error pop-ups
+saying things like, "The program can't start because Qt5Core.dll is missing from your
+computer".
+
+Qt includes several different versions of these files.  Depending on what version you
+are running, that will determine which copies of those files you need.  If you don't
+copy the .dll files from the .zip file, and build clockutc.exe yourself, then after
+you have opened the project in Qt Creator, see:
+
+- Tools > Options > Build & Run > Qt Versions
 
 The folder containing the .dll files you need will probably look like:
 
